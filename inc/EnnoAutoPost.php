@@ -49,8 +49,8 @@ class EnnoAutoPost
 	    $this->_user = $config['user'];
 	    $this->_pass = $config['pass'];
 	    $this->_url = $config['url'];
-	    $this->_imgMaxWidth = $config['min_width'];
-		$this->_imgMaxHeight = $config['max_width'];
+	    $this->_imgMaxWidth = $config['max_width'];
+		$this->_imgMaxHeight = $config['max_height'];
 
 		$this->_client = new IXR_Client($this->_url."/xmlrpc.php");
 		$this->_content = $htmlString;
