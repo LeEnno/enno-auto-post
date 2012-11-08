@@ -138,7 +138,7 @@ class EnnoAutoPost
 	 */
 	public function replaceImageMarkup()
 	{
-		$pattern = '<img src="([^"]+)" alt="([^"]+)" />';
+		$pattern = '<img src="([^"]+)" alt="([^"]+)" (title="([^"]+)" )?/>';
 		$pattern = self::DELIMITER . $pattern . self::DELIMITER;
 		$this->_content = preg_replace_callback(
 			$pattern,
