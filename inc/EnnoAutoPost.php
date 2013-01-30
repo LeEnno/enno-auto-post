@@ -227,7 +227,7 @@ class EnnoAutoPost
 		// prepare output
 		$titleEscaped = htmlspecialchars($title);
 		$srcFinal = $fileMeta['basepath'] . $fileMeta['basename'] . $sizeAppend . $fileMeta['extension'];
-		$output = "[caption id='attachment_$imageID' align='aligncenter' width='$width' caption='$titleEscaped']";
+		$output = "[caption id='attachment_$imageID' align='aligncenter' width='$width']";
 		$output.= "<a href='$imageUrl'>";
 		$output.= "<img class='wp-image-$imageID' title='$titleEscaped' src='$srcFinal' alt='$titleEscaped' width='$width' height='$height' />";
 		$output.= "</a> {$title}[/caption]";
