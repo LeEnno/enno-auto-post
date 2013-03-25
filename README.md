@@ -18,7 +18,8 @@ How to use
 ----------
 
 1. Write your blogpost. Be sure to use a file header like this:
-	- ```
+
+```
 @slug: this-is-my-slug
 @tags: Just, A, Few, Tags
 @categories: My Category One, My Category Two
