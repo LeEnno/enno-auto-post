@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>groupInfo</key>
+	<dict>
+		<key>expandAfterMode</key>
+		<integer>0</integer>
+		<key>groupName</key>
+		<string>EnnoAutoPost</string>
+	</dict>
+	<key>snippetsTE2</key>
+	<array>
+		<dict>
+			<key>abbreviation</key>
+			<string>mmdh</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2012-06-24T15:32:51Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string>EnnoAutoPost Markdown Head</string>
+			<key>lastUsed</key>
+			<date>2013-03-25T18:01:45Z</date>
+			<key>modificationDate</key>
+			<date>2013-03-25T18:29:20Z</date>
+			<key>plainText</key>
+			<string>@slug: TODO
+@tags: TODO
+@categories: TODO
+@excerpt: TODO
+
+# TODO</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>85</integer>
+			<key>uuidString</key>
+			<string>7666CB24-7540-4422-AD5B-A205484D0684</string>
+		</dict>
+	</array>
+</dict>
+</plist>
