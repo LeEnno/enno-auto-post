@@ -18,8 +18,7 @@ How to use
 ----------
 
 1. Write your blogpost. Be sure to use a file header like this:
-
-```
+	- ```
 @slug: this-is-my-slug
 @tags: Just, A, Few, Tags
 @categories: My Category One, My Category Two
@@ -58,7 +57,7 @@ You are allowed to insert multiple blogs in here. Make sure each of them has a s
 
 `url`, `user` and `pass` should be a no brainer. `max_width` and `max_height` refers to the maximum dimension of your medium size images as you can find via *Settings* → *Media* in your WordPress backend.
 
-![Media Settings](https://raw.github.com/LeEnno/enno-auto-post/master//screenshot_media_settings.png)
+![Media Settings](https://raw.github.com/LeEnno/enno-auto-post/master/screenshot_media_settings.png)
 
 I might tweak this in the future so these settings will be read via XML-RPC automatically. But for now you just have to copy and paste those values into the config file.
 
@@ -66,13 +65,13 @@ I might tweak this in the future so these settings will be read via XML-RPC auto
 
 Look into the Keyboard Maestro (KM) macro. Go to the group *EnnoAutoPost* and look for the *Send Blogpost to WP* macro. The second action calls the PHP script. You have to adjust the path where it's located. Currently it's set to `/Users/Enno/Sites/xmlrpc/index.php`.
 
-![Path to PHP Script](https://raw.github.com/LeEnno/enno-auto-post/master//screenshot_php_path.png)
+![Path to PHP Script](https://raw.github.com/LeEnno/enno-auto-post/master/screenshot_php_path.png)
 
 ### Blog Identifier
 
 Remember those sections names from the `config.ini`? We need to pouplate them into the corresponding macros. Look for *Send Blogpost to iEnno* and rename it so it fits you blog's name. Look at the first action (*Set Variable 'blogIdentifier' to Text 'ienno'*) and insert the section name from the `config.ini`. This will ensure the PHP script reads the correct credentials etc.
 
-![Adjust blogIdentifier](https://raw.github.com/LeEnno/enno-auto-post/master//screenshot_blogIdentifier.png)
+![Adjust blogIdentifier](https://raw.github.com/LeEnno/enno-auto-post/master/screenshot_blogIdentifier.png)
 
 How it works
 ------------
