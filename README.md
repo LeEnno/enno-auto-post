@@ -121,7 +121,7 @@ If you know a little PHP you should easily be able to adapt it to your needs. If
 
 ### Compatibility
 
-**Notice that it's currently not tested in WordPress version 3.5.** Hopefully I'll get to this within the next few weeks.
+It's tested and used on WordPress blogs in version *3.6*. Nevertheless it should work at least down to version *3.5*.
 
 ---
 
