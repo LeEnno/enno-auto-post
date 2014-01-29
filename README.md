@@ -17,7 +17,7 @@ It will take care of all the annoying stuff you'd normally be forced to do by ha
 How to use
 ----------
 
-1. Write your blogpost. Be sure to use a file header like this:
+1. Write your blogpost. Be sure to use a file header like this (you may use the [TextExpander](http://smilesoftware.com/TextExpander/ "TextExpander: Mac Typing Shortcut Utility Saves You Time - Smile")-Snippet in this repo):
 
 ```
 @slug: this-is-my-slug
